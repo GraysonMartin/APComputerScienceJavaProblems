@@ -11,7 +11,7 @@ public class CreditCard {
   }
 
   public Boolean isValid() {
-	int step1 = 0;
+    int step1 = 0;
     for(int i = individualNumbers.size() - 1; i >= 0; i -= 2){
       step1 += Integer.parseInt(individualNumbers.get(i));
     }
